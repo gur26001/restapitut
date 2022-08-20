@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Goal setter for Youtube tutorial",
+  "main": "server.js",
+  "scripts": {
+    "testServer": "nodemon backend/server.js"
+    ,"start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gur26001/restapitut.git"
+  },
+  "author": "Gursimran Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gur26001/restapitut/issues"
+  },
+  "homepage": "https://github.com/gur26001/restapitut#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
